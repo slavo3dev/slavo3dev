@@ -27,6 +27,7 @@ export default class MyDocument extends Document {
           `,
             }}
           />
+          <link rel="shortcut icon" href="lion.jpg" />
         </Head>
         <body>
           <Main />
