@@ -1,7 +1,13 @@
+import Head from "next/head";
+import { Hero, HeadComponent } from "../components";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello Slavo</h1>
-    </div>
+    <>
+      <HeadComponent
+        title={"Slavo Popovic - Software Web Developer"}
+      />
+      <Hero />
+    </>
   );
 }

@@ -1,3 +1,5 @@
-import { Footer } from './footer'
+import { Footer } from "./footer";
+import { Hero } from "./hero";
+import { HeadComponent } from "./headcomponent";
 
-export { Footer }
+export { Footer, Hero, HeadComponent };
