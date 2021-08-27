@@ -40,9 +40,6 @@ export function Hero() {
             <p>
               I specialize in building online businesses, software
               companies, and web applications.
-              <br />
-              We believe in a Future where technology is used to help
-              YOU to achieve YOUR Dreams!
             </p>
             <hr className="hr" />
             <Link href="https://www.nrgnomad.com">
