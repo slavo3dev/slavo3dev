@@ -13,6 +13,10 @@ export function HeadComponent({ title }: Props) {
         content="width=device-width, initial-scale=1"
       ></meta>
       <title>{title}</title>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+      ></link>
       <script
         defer
         src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
