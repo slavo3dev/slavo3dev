@@ -10,11 +10,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script
-            defer
-            src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
-          ></script>
-
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async

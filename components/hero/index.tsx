@@ -1,8 +1,17 @@
 import Link from "next/link";
+import { loadImage } from "../../lib/util/loadImage";
+import { useEffect } from "react";
 
 export function Hero() {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      loadImage("wallpaper", null);
+      loadImage("pictureImage", "picture");
+    });
+  }, []);
+
   return (
-    <body>
+    <>
       <div
         id="wallpaper"
         className="wallpaper"
@@ -17,7 +26,7 @@ export function Hero() {
               className="picture-image"
               src="/images/slavo3.jpg"
               srcSet="images/slavo3.jpg 1x,
-                       images/slavo@2x.jpg 2x,
+                       images/slavo3@2x.jpg 2x,
                        images/slavo@3x.jpg 3x"
               alt="Portrait of Slavo_3 Software Web Engineer"
               width="320"
@@ -31,15 +40,17 @@ export function Hero() {
           <hr className="hr" />
           <div className="description">
             <p>
-              I specialize in rapidly building online business,
-              software companies and web applications
+              I specialize in building online businesses, software
+              companies, and web applications.
             </p>
             <Link href="https://www.nrgnomad.com">
               <a target="_blank">Blog: NRG Nomad</a>
             </Link>
           </div>
           <div className="contact">
-            <a className="button">Contact me</a>
+            <Link href="mailto:slavo@slavo3.com">
+              <a className="button">Contact me</a>
+            </Link>
           </div>
           <ul className="social">
             <li>
@@ -80,6 +91,6 @@ export function Hero() {
           </ul>
         </main>
       </div>
-    </body>
+    </>
   );
 }
