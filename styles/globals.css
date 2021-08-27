@@ -46,6 +46,22 @@ a {
   text-transform: uppercase;
 }
 
+.blog-contact {
+  font-family: "Lato", "Work sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #cbffdc;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.blog-contact:hover {
+  letter-spacing: 0.3em;
+  transition-duration: 100ms;
+  text-decoration: none;
+  color: white;
+}
+
 .button,
 .social a {
   transform-origin: center;

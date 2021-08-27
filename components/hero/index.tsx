@@ -41,8 +41,11 @@ export function Hero() {
               I specialize in building online businesses, software
               companies, and web applications.
             </p>
+            <hr className="hr" />
             <Link href="https://www.nrgnomad.com">
-              <a target="_blank">Blog: NRG Nomad</a>
+              <a target="_blank">
+                <span className="blog-contact">Blog: NRG Nomad</span>
+              </a>
             </Link>
           </div>
           <div className="contact">
