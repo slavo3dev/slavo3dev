@@ -4,10 +4,8 @@ import { useEffect } from "react";
 
 export function Hero() {
   useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      loadImage("wallpaper", null);
-      loadImage("pictureImage", "picture");
-    });
+    loadImage("wallpaper", null);
+    loadImage("pictureImage", "picture");
   }, []);
 
   return (
