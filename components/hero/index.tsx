@@ -25,7 +25,7 @@ export function Hero() {
               src="/images/slavo3.jpg"
               srcSet="images/slavo3.jpg 1x,
                        images/slavo3@2x.jpg 2x,
-                       images/slavo@3x.jpg 3x"
+                       images/slavo3F@3x.jpg 3x"
               alt="Portrait of Slavo_3 Software Web Engineer"
               width="320"
               height="320"
