@@ -1,9 +1,12 @@
 export function loadImage(id, targetId) {
+  console.log("ID: ", id);
+  console.log("targetID: ", targetId);
   // Either an <img>, or an element with a "data-image" attribute
   let el: any = document.getElementById(id);
 
   // Either the same element as above, or the targetId element
   let targetEl = targetId ? document.getElementById(targetId) : el;
+  console.log("Target EL: ", targetEl);
 
   // Either the loaded <img>, or the path specified by the "data-image" attribute
   let imageToLoad;
@@ -20,9 +23,9 @@ export function loadImage(id, targetId) {
   }
 
   if (imageToLoad) {
-    console.log("Image to Load !", imageToLoad);
     let img = new Image();
     img.src = imageToLoad;
+    console.log("Image Loaded: ", img);
     img.onload = function () {
       targetEl.classList.add("is-loaded");
     };

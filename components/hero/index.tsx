@@ -13,7 +13,7 @@ export function Hero() {
       <div
         id="wallpaper"
         className="wallpaper"
-        data-image="images/chicago.jpg"
+        data-image="images/miami.jpg"
       ></div>
       <div className="content">
         <aside className="side">
