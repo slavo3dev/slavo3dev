@@ -42,9 +42,11 @@ export function Hero() {
               companies, and web applications.
             </p>
             <hr className="hr" />
-            <Link href="https://www.nrgnomad.com">
+            <Link href="https://www.prototypenext.com">
               <a target="_blank">
-                <span className="blog-contact">Blog: NRG Nomad</span>
+                <span className="blog-contact">
+                  Project: Prototype.NEXT
+                </span>
               </a>
             </Link>
           </div>
