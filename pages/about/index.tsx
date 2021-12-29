@@ -1,6 +1,6 @@
-import { Hero, HeadComponent } from "../components";
+import { Hero, HeadComponent } from "../../components";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <HeadComponent
