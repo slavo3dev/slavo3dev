@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <HeadComponent
-        title={"Slavo Popovic - Software Web Developer"}
+        title={"About Me - Slavo_3 - Software Web Developer"}
       />
       <Hero />
     </>
