@@ -33,3 +33,15 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# sanity
+/s3studio/node_modules
+# Logs
+/sanity/logs
+*.log
+
+# Coverage directory used by tools like istanbul
+/sanity/coverage
+
+# Compiled sanity studio
+/sanity/dist
