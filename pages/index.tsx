@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <HeadComponent
-        title={"Slavo Popovic - Software Web Developer"}
+        title={"Slavo Popovic - Software Developer"}
       />
       <Hero />
     </>

@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <a
-        href="https://www.nrgnomad.com"
+        href="https://www.prototypenext.com"
         target="_blank"
         rel="noopener noreferrer"
       >
