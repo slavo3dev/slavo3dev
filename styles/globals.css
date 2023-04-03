@@ -57,7 +57,7 @@ a {
 
 .blog-contact:hover {
   letter-spacing: 0.3em;
-  transition-duration: 100ms;
+  transition-duration: 50ms;
   text-decoration: none;
   color: white;
 }

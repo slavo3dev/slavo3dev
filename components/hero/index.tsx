@@ -42,7 +42,7 @@ export function Hero() {
               companies, and web applications.
             </p>
             <hr className="hr" />
-            <Link href="https://www.prototypenext.com">
+            <Link href="https://www.prototypenextY.com">
               <a target="_blank">
                 <span className="blog-contact">
                   Project: Prototype.NEXT
